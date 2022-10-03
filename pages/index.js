@@ -4,7 +4,6 @@ import { Container, Box, Heading, Image, useColorModeValue, chakra, Button, Link
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import styled from '@emotion/styled';
 import Section from '../components/section';
-import { Instagram } from '@styled-icons/bootstrap/Instagram';
 import { AiOutlineMail } from 'react-icons/ai'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
@@ -70,7 +69,7 @@ const Page = () => {
                          </BioSection>
                          <BioSection>
                               <BioYear>Aug 2020</BioYear>
-                              Graduated with a Bachelor's degree in Computer Science and Engineering from Jawaharlal Nehru Technological University Hyderabad
+                              Graduated with a Bachelor&apos;s degree in Computer Science and Engineering from Jawaharlal Nehru Technological University Hyderabad
                          </BioSection>
                          <BioSection>
                               <BioYear>Aug 2020 - present</BioYear>

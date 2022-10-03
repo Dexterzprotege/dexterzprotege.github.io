@@ -1,9 +1,5 @@
-import { Image } from '@chakra-ui/react'
-
-
 const FootprintIcon = props => {
 	return (
-		// <Image src="/dog.png" boxSize="25px"/>
 		<svg       width={20}
       height={20}
       className="w-5 inline-block transition-transform group-hover:rotate-[20deg]"
