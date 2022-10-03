@@ -80,7 +80,7 @@ const Page = () => {
                     {/* Interests */}
                     <Section delay={0.3}>
                          <Heading as="h3" variant="section-title">
-                              I ❤️
+                              I 💚
                          </Heading>
                          <Paragraph>
                               Geography, Trivia,{' '}

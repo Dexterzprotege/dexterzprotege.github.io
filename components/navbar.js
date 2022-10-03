@@ -62,10 +62,13 @@ const Navbar = props => {
                               Works
                          </LinkItem>
                          <LinkItem href="/posts" path={path}>
-                              Posts
+                              Blog
                          </LinkItem>
-                         <LinkItem href="https://uses.craftz.dog/">
+                         <LinkItem href="/uses">
                               Uses
+                         </LinkItem>
+                         <LinkItem href="/contact">
+                              Contact
                          </LinkItem>
                     </Stack>
 
@@ -88,10 +91,13 @@ const Navbar = props => {
                                              <MenuItem as={Link}>Works</MenuItem>
                                         </NextLink>
                                         <NextLink href="/posts" passHref>
-                                             <MenuItem as={Link}>Posts</MenuItem>
+                                             <MenuItem as={Link}>Blog</MenuItem>
                                         </NextLink>
-                                        <NextLink href="https://uses.craftz.dog/" passHref>
+                                        <NextLink href="/uses" passHref>
                                              <MenuItem as={Link}>Uses</MenuItem>
+                                        </NextLink>
+                                        <NextLink href="/contact" passHref>
+                                             <MenuItem as={Link}>Contact</MenuItem>
                                         </NextLink>
                                    </MenuList>
                               </Menu>
