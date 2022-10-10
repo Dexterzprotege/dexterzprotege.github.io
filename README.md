@@ -27,4 +27,5 @@ $PROJECT_ROOT
 ```
 
 ### Colophon
+
 This site is inspired by [Craftz Dog](https://github.com/craftzdog/craftzdog-homepage/) and is hosted on Netlify with domain name from OnlyDomains.
