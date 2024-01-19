@@ -90,7 +90,7 @@ const Contact = () => {
           &nbsp;&nbsp;
           <NextLink href="/coverletter.pdf">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My Cover etter
+              My Cover Letter
             </Button>
           </NextLink>
         </Section>

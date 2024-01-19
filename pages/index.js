@@ -77,8 +77,7 @@ const Page = () => {
           <Wave role="img" aria-label="Hand wave">
             👋
           </Wave>
-          &nbsp; Hello, I&apos;m an Software Engineer, currently working at
-          Amazon
+          &nbsp; Hello, I&apos;m an Software Engineer, currently working at Tesla
         </Box>
 
         {/* Work related information */}
@@ -109,20 +108,24 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>Jun 1999</BioYear>
-            Born in Hyderabad, India
+            Born in Hyderabad, India 🇮🇳
           </BioSection>
           <BioSection>
-            <BioYear>Jun 2020</BioYear>
-            Completed internship with Amazon
-          </BioSection>
-          <BioSection>
-            <BioYear>Aug 2020</BioYear>
+            <BioYear>Aug 2016 - Aug 2020</BioYear>
             Graduated with a Bachelor&apos;s degree in Computer Science and
             Engineering from Jawaharlal Nehru Technological University Hyderabad
           </BioSection>
           <BioSection>
-            <BioYear>Aug 2020 - present</BioYear>
-            Working as a System Development Engineer at Amazon
+            <BioYear>Dec 2019 - Jun 2020</BioYear>
+            Internship at Amazon
+          </BioSection>
+          <BioSection>
+            <BioYear>Aug 2020 - May 2023</BioYear>
+            System Development Engineer at Amazon
+          </BioSection>
+          <BioSection>
+            <BioYear>Jun 2023 - Present</BioYear>
+            Software Engineer at Tesla 🏎️🔋⚡
           </BioSection>
         </Section>
 
