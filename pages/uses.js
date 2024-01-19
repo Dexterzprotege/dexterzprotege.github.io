@@ -74,4 +74,3 @@ const Uses = () => {
 }
 
 export default Uses
-export { getServerSideProps } from '../components/chakra'
