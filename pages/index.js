@@ -3,9 +3,7 @@ import {
   Container,
   Box,
   Heading,
-  Image,
   useColorModeValue,
-  chakra,
   Button,
   Link,
   List,
@@ -20,10 +18,7 @@ import {
   IoLogoGithub,
   IoLogoLinkedin
 } from 'react-icons/io5'
-
-const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
+import Image from 'next/image'
 
 const Page = () => {
   return (
@@ -54,7 +49,7 @@ const Page = () => {
               borderRadius="full"
               overflow="hidden"
             >
-              <ProfileImage
+              <Image
                 src="/sharath.png"
                 alt="Profile image"
                 boxSize="150px"
