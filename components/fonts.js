@@ -1,8 +1,13 @@
-import { Global } from '@emotion/react'
+import { Global } from '@emotion/react';
 
 const Fonts = () => (
   <Global
-    styles={`@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');`}
+    styles={`
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+    `}
   />
-)
-export default Fonts
+);
+
+export default Fonts;

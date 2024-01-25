@@ -30,7 +30,7 @@ const Main = ({ children, router }) => {
 
       <Container maxW="container.md" pt={14}>
         {/* <LazyVoxelComputer /> */}
-        <Img src="/banner.png" alt="Banner Cover" boxSize="sm" align="center" />
+        {/* <Img src="/banner.png" alt="Banner Cover" boxSize="sm" align="center" /> */}
         {children}
         <Footer />
       </Container>

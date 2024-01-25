@@ -27,7 +27,7 @@ const Logo = () => {
           <FootprintIcon />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='Ubuntu", sans-serif'
+            fontFamily='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
             fontWeight="bold"
             ml={3}
           >

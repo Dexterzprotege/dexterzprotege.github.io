@@ -11,7 +11,6 @@ import {
   List,
   ListItem
 } from '@chakra-ui/react'
-// import { ChevronRightIcon } from '@chakra-ui/icons';
 import styled from '@emotion/styled'
 import Section from '../components/section'
 import { AiOutlineMail } from 'react-icons/ai'
@@ -92,13 +91,6 @@ const Page = () => {
             time, I enjoy participating in Quizzing other Trivia competitions.
             Hit me up, if you have anything in common and want to discuss!
           </Paragraph>
-          {/* <Box align="center" my={4}>
-                              <NextLink href="/works">
-                                   <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                                        My portfolio
-                                   </Button>
-                              </NextLink>
-                         </Box> */}
         </Section>
 
         {/* Bio related information */}
@@ -283,7 +275,6 @@ const Wave = styled.span`
 
 const Paragraph = styled.p`
   text-align: justify;
-  text-indent: 1em;
 `
 
 const BioSection = styled(Box)`
