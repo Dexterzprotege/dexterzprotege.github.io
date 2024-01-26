@@ -218,13 +218,13 @@ const Page = () => {
             >
               Craftz Dog
             </Link>{' '}
-            and is hosted on Netlify. The source code of this website can be
-            found{' '}
+            and is hosted on Netlify. The source code of this website can be found here:
+            {' '}
             <Link
-              href="https://github.com/Dexterzprotege/sharath-homepage"
+              href="https://github.com/Dexterzprotege/dexterzprotege.io"
               isExternal
             >
-              here
+              My Portfolio
             </Link>
             .
           </Paragraph>
