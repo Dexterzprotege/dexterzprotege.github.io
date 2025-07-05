@@ -22,7 +22,6 @@ const LogoBox = styled.span`
 const Logo = () => {
   return (
     <Link href="/" scroll={false}>
-      <a>
         <LogoBox>
           <FootprintIcon />
           <Text
@@ -34,7 +33,6 @@ const Logo = () => {
             Sharath Kamlekar
           </Text>
         </LogoBox>
-      </a>
     </Link>
   );
 };

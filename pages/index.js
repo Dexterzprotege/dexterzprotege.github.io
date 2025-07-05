@@ -52,10 +52,9 @@ const Page = () => {
               <Image
                 src="/sharath.png"
                 alt="Profile image"
-                boxSize="150px"
                 borderRadius="full"
-                width="100%"
-                height="100%"
+                width={150}
+                height={150}
               />
             </Box>
           </Box>
