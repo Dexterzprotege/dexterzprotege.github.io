@@ -1,6 +1,6 @@
 # Sharath's Website
 
-[http://sharathkamlekar.me/](http://sharathkamlekar.me/)
+[https://dexterzprotege.github.io/](https://dexterzprotege.github.io/)
 
 ## Stack
 

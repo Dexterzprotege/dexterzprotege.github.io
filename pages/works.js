@@ -1,6 +1,6 @@
-import Section from '../components/section'
-import { Container, Heading } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
+import Section from "../components/section";
+import { Container, Heading } from "@chakra-ui/react";
+import Layout from "../components/layouts/article";
 
 const Works = () => {
   return (
@@ -13,7 +13,7 @@ const Works = () => {
         </Section>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Works
+export default Works;

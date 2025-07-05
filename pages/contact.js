@@ -1,4 +1,4 @@
-import Section from '../components/section'
+import Section from "../components/section";
 import {
   Container,
   Heading,
@@ -6,18 +6,18 @@ import {
   UnorderedList,
   ListItem,
   Button,
-  Link
-} from '@chakra-ui/react'
-import NextLink from 'next/link'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Layout from '../components/layouts/article'
-import { AiOutlineMail } from 'react-icons/ai'
+  Link,
+} from "@chakra-ui/react";
+import NextLink from "next/link";
+import { ChevronRightIcon } from "@chakra-ui/icons";
+import Layout from "../components/layouts/article";
+import { AiOutlineMail } from "react-icons/ai";
 import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoLinkedin
-} from 'react-icons/io5'
+  IoLogoLinkedin,
+} from "react-icons/io5";
 
 const Contact = () => {
   return (
@@ -96,7 +96,7 @@ const Contact = () => {
         </Section>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

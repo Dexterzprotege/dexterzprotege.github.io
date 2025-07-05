@@ -1,17 +1,17 @@
-import Section from '../components/section'
-import { UsesGridItem } from '../components/grid-item'
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import styled from '@emotion/styled'
+import Section from "../components/section";
+import { UsesGridItem } from "../components/grid-item";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
+import Layout from "../components/layouts/article";
+import styled from "@emotion/styled";
 
-import macbook from '../public/uses/macbook.jpeg'
-import monterey from '../public/uses/monterey.png'
-import acer from '../public/uses/acer.png'
-import logitech from '../public/uses/logitech.png'
+import macbook from "../public/uses/macbook.jpeg";
+import monterey from "../public/uses/monterey.png";
+import acer from "../public/uses/acer.png";
+import logitech from "../public/uses/logitech.png";
 
 const Paragraph = styled.p`
   text-align: justify;
-`
+`;
 
 const Uses = () => {
   return (
@@ -70,7 +70,7 @@ const Uses = () => {
         </SimpleGrid>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Uses
+export default Uses;

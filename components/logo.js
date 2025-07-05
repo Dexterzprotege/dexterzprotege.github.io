@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
-import styled from '@emotion/styled'
+import Link from "next/link";
+import { Text, useColorModeValue } from "@chakra-ui/react";
+import FootprintIcon from "./icons/footprint";
+import styled from "@emotion/styled";
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -17,7 +17,7 @@ const LogoBox = styled.span`
   &:hover > svg {
     transform: rotate(20deg);
   }
-`
+`;
 
 const Logo = () => {
   return (
@@ -26,7 +26,7 @@ const Logo = () => {
         <LogoBox>
           <FootprintIcon />
           <Text
-            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            color={useColorModeValue("gray.800", "whiteAlpha.900")}
             fontFamily='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
             fontWeight="bold"
             ml={3}
@@ -36,7 +36,7 @@ const Logo = () => {
         </LogoBox>
       </a>
     </Link>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;

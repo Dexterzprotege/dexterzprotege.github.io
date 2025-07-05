@@ -1,4 +1,4 @@
-import Layout from '../components/layouts/article'
+import Layout from "../components/layouts/article";
 import {
   Container,
   Box,
@@ -7,25 +7,25 @@ import {
   Button,
   Link,
   List,
-  ListItem
-} from '@chakra-ui/react'
-import styled from '@emotion/styled'
-import Section from '../components/section'
-import { AiOutlineMail } from 'react-icons/ai'
+  ListItem,
+} from "@chakra-ui/react";
+import styled from "@emotion/styled";
+import Section from "../components/section";
+import { AiOutlineMail } from "react-icons/ai";
 import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoLinkedin
-} from 'react-icons/io5'
-import Image from 'next/image'
+  IoLogoLinkedin,
+} from "react-icons/io5";
+import Image from "next/image";
 
 const Page = () => {
   return (
     <Layout>
       <Container>
         <br />
-        <Box display={{ md: 'flex' }}>
+        <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Sharath Kamlekar
@@ -63,7 +63,7 @@ const Page = () => {
 
         <Box
           borderRadius="lg"
-          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
           mb={6}
           p={3}
           textAlign="center"
@@ -71,7 +71,8 @@ const Page = () => {
           <Wave role="img" aria-label="Hand wave">
             👋
           </Wave>
-          &nbsp; Hello, I&apos;m an Software Engineer, currently working at Tesla
+          &nbsp; Hello, I&apos;m an Software Engineer, currently working at
+          Tesla
         </Box>
 
         {/* Work related information */}
@@ -122,11 +123,11 @@ const Page = () => {
             I 💚
           </Heading>
           <Paragraph>
-            Geography, Trivia,{' '}
+            Geography, Trivia,{" "}
             <Link href="https://gazings.blogspot.com/" target="_blank">
               Writing poems and haikus
             </Link>
-            , History,{' '}
+            , History,{" "}
             <Link
               href="https://myanimelist.net/animelist/skamleka"
               target="_blank"
@@ -211,15 +212,15 @@ const Page = () => {
             Colophon
           </Heading>
           <Paragraph>
-            This site is inspired by{' '}
+            This site is inspired by{" "}
             <Link
               href="https://github.com/craftzdog/craftzdog-homepage/"
               isExternal
             >
               Craftz Dog
-            </Link>{' '}
-            and is hosted on Netlify. The source code of this website can be found here:
-            {' '}
+            </Link>{" "}
+            and is hosted on Netlify. The source code of this website can be
+            found here:{" "}
             <Link
               href="https://github.com/Dexterzprotege/dexterzprotege.io"
               isExternal
@@ -231,10 +232,10 @@ const Page = () => {
         </Section>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;
 
 const Wave = styled.span`
   animation-name: wave-animation;
@@ -266,19 +267,19 @@ const Wave = styled.span`
       transform: rotate(0deg);
     }
   }
-`
+`;
 
 const Paragraph = styled.p`
   text-align: justify;
-`
+`;
 
 const BioSection = styled(Box)`
   padding-left: 6em;
   text-indent: -6em;
   text-align: justify;
-`
+`;
 
 const BioYear = styled.span`
   font-weight: bold;
   margin-right: 1em;
-`
+`;

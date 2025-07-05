@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Navbar from '../navbar.js'
-import { Box, Container } from '@chakra-ui/react'
-import Footer from '../footer'
+import Head from "next/head";
+import Navbar from "../navbar.js";
+import { Box, Container } from "@chakra-ui/react";
+import Footer from "../footer";
 
 const Main = ({ children, router }) => {
   return (
@@ -18,7 +18,7 @@ const Main = ({ children, router }) => {
         <Footer />
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

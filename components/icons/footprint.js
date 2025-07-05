@@ -1,4 +1,4 @@
-const FootprintIcon = props => {
+const FootprintIcon = (props) => {
   return (
     <svg
       width={20}
@@ -189,6 +189,6 @@ const FootprintIcon = props => {
         />
       </g>
     </svg>
-  )
-}
-export default FootprintIcon
+  );
+};
+export default FootprintIcon;
